@@ -16,6 +16,9 @@
         <label>Número 2: </label>
         <input name="num2" type="text">
 
+        <label>Letra Input: </label>
+        <input name="let" type="text">
+
         <button type="submit">Enviar</button>
     </form>
 
@@ -72,11 +75,42 @@ else{
         Conforme a letra escrever: F - Feminino, M - Masculino, Sexo Inválido.
     */
 
-    echo "<h3>Exercicio 02</h3>";
+    echo "<h3>Exercicio 03</h3>";
+
+    
+    $let = $_GET['let'];
+    
+    echo "<p>Letra: " . $let;
+    echo "</p>";
+
+    if($let == "F"){
+        echo "<p>F - Feminino";
+    }
+    else if($let == "M"){
+        echo "<p>M - Masculino";
+    }
+    else{
+        echo "<p>Sexo Inválido";
+    }
     
 /*
      - Faça um Programa que verifique se uma letra digitada é vogal ou consoante.
     */
+
+    echo "<h3>Exercicio 04</h3>";
+
+    
+    $let = $_GET['let'];
+    
+    echo "<p>Letra: " . $let;
+    echo "</p>";
+
+    if($let == "a" || $let == "e" || $let == "i" || $let == "o" || $let == "u"){
+        echo "<p>É uma vogal";
+    }
+    else{
+        echo "<p>É uma consoante";
+    }
 
 /*
      - Faça um programa para a leitura de duas notas parciais de um aluno. O programa deve calcular a média alcançada por aluno e apresentar:
