@@ -110,7 +110,8 @@
         echo "<br><h3>" . str_pad($txt, $tamanho, $char, STR_PAD_BOTH);
     }
 
-    titulo("Olá Mundo", "^");
+    titulo("Olá Mundo", "~");
+    titulo("Eh isso", "-");
 
 
     ?>
