@@ -34,7 +34,7 @@
     */
 
 echo "<h3>Exercicio 01</h3>";
-    
+
 $num1 = $_GET['num1'];
 $num2 = $_GET['num2'];
 
